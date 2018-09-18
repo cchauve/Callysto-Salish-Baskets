@@ -1,6 +1,6 @@
 # An interactive tool for creating Coast Salish basket patterns
 #### Authors: Howell Tan, Jenifer Pham & Laura Gutierrez Funderburk, Cedric Chauve
-#### Supervisors: Dr. Cedric Chauve and Dr. Veselin Jungic
+#### Supervisors: Dr. [Cedric Chauve](https://cchauve.github.io) and Dr. [Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
 
 ## Overview
 
