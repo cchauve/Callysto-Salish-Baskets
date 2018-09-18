@@ -14,6 +14,8 @@ The guiding idea of our work is that the motifs we can observe on many Coast sal
 - The second notebook (Combining and Editing Motifs) takes motifs saved in files and allows a user to edit them and to combine them into more complex motifs; it also includes the possibility to define a motif from scratch, for example to be uased as initial shape by the first notebook.
 - Finally the third notebook (3D Basket) allows a user to combine various motifs created by the first two notebooks into a circular or rectangular basket, that can be visualized in 3 dimensions.
 
+To access these notebooks, please visit our github repo, either by following this [link](https://github.com/cchauve/Callysto-Salish-Baskets) or by clicking on "View on Github" on top of this page.
+
 Our notebooks are primarily intended to be used by students during classrooms activities, with the goal to illustrate how simple geometric concepts and operations can be used to design realistic patterns; we hope is that our notebooks can also be useful to artist weavers, by allowing them to visualize different pattern ideas.
 
 These notebooks  form only a first draft of a more general tool we expect to develop over the next few months. The main feature of our approach is to see basket motifs under the prism of geometric shapes and symmetries. This results in the possibility to design complex motifs from simple ones to which simple mathematical operators are applied. Our longer term goal is to tend toward more realistic motifs.
