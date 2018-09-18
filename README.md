@@ -1,17 +1,18 @@
-# An interactive tool for creating Coast Salish basket motifs
+# Interactive notebooks for creating Coast Salish basket motifs
 #### Authors: Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk, Cedric Chauve, Veselin Jungic
 #### Contact: [Dr. Cedric Chauve](https://cchauve.github.io) and [Dr. Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
 
-## Overview
 
-Weaving is a craft with a long history in many places around the world, including the Pacific NorthWest. Woven baskets in particular have long been important practical and cultural objects for BC Coast Salish people. An important feature of woven baskets is the occurrence of beautiful geometric motifs/patterns, such as the ones of the three baskets below, exposed at the [UBC Museum of Anthropology](https://moa.ubc.ca/)
+Weaving is a craft with a long history in many places around the world, including the Pacific NorthWest. Woven baskets in particular have long been important practical and cultural objects for BC Coast Salish people. An important feature of woven baskets is the occurrence of beautiful geometric motifs/patterns, such as the ones of the basket below, exposed at the [UBC Museum of Anthropology](https://moa.ubc.ca/).
 
 ![](https://moa.ubc.ca/wp-content/uploads/2018/03/Basket-by-Theresa-Gabriel-Lil%E2%80%99wat.-Photo-by-Derek-Tan.jpg "Lil’wat basket by Teresa Bagriel")
 
-![](https://moa.ubc.ca/wp-content/uploads/2018/03/Basket-by-Matilda-Jim-Lil%E2%80%99watPhoto-by-Derek-Tan.jpg "Lil’wat basket by Mtilda Jim")
+The project we describe here originates from a starting collaboration betwen the [Department of Mathematics](http:/math.sfu.ca) at [Simon Fraser University (SFU)](http://www.sfu.ca) and baskets weavers from the [Tla'amin Nation](http://www.tlaaminnation.com). It consists in the development of a series of interactive [Jupyter notebooks](http://jupyter.org/) allowing to generate motifs similar to the ones  observed on existing woven baskets, but also to create novel motifs. 
 
+The guiding idea of our work is that the motifs we can observe on many Coast salish baskets are highly regular and can be described very simply in terms of basic geometric shapes (broken lines, triangles, rectangles, ...) and operations such as reflections and stacking. Following this observation, we designed three Jupyter notebooks, inspired by baskets we were presented during a visit to the Tla'amin Nation.
+- The first notebook (Atomic Motifs) implements this principle and allows the user to design complex motifs by a sequence of geometric operations applied successively, starting from a simple initial shape; the resulting motifs can be saved in a file that will be used by the other notebooks. 
+- The second notebook (Combining and Editing Motifs) takes motifs saved in files and allows a user to edit them and to combine them into more complex motifs; it also includes the possibility to define a motif from scratch, for example to be uased as initial shape by the first notebook.
+- Finally the third notebook (3D Basket) allows a user to combine various motifs created by the first two notebooks into a circular or rectangular basket, that can be visualized in 3 dimensions.
 
-The work described here stems from a starting collaboration betwen the [Department of Mathematics](http:/math.sfu.ca) at [Simon Fraser University (SFU)](http://www.sfu.ca) and the [Tla'amin Nation](http://www.tlaaminnation.com). 
-
-Our work consisted in the development of a series of interactive [Jupyter notebooks](http://jupyter.org/) allowing to reproduce patterns observed on existing woven baskets but also to create novel patterns. Our notebooks are primarily intended to be used by students during classrooms activities, with the goal to illustrate how simple geometric concepts and operations can be used to design realistic patterns; our hope is that our notebooks can also be useful to artist weavers, by allowing them to visualize different pattern ideas.
+Our notebooks are primarily intended to be used by students during classrooms activities, with the goal to illustrate how simple geometric concepts and operations can be used to design realistic patterns; we hope is that our notebooks can also be useful to artist weavers, by allowing them to visualize different pattern ideas.
 
