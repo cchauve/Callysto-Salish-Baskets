@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# An interactive tool for creating Coast Salish basket patterns
+#### Authors: Howell Tan, Jenifer Pham & Laura Gutierrez Funderburk, Cedric Chauve
+#### Supervisors: Dr. Cedric Chauve and Dr. Veselin Jungic
 
-You can use the [editor on GitHub](https://github.com/cchauve/Callysto_Salish_Baskets/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Weaving is a craft with a long history in many places around the world, including the Pacific NorthWest. Woven baskets in particular have long been important practical and cultural objects for BC Coast Salish people. 
 
-### Markdown
+The work described here stems from a starting collaboration betwen the [Department of Mathematics](http:/math.sfu.ca) at [Simon Fraser University (SFU)](http://www.sfu.ca) and the [Tla'amin Nation](http://www.tlaaminnation.com). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+An important feature of woven baskets is the occurrence of regular geometric patterns. Our work consisted in the development of a series of interactive [Jupyter notebooks](http://jupyter.org/) allowing to reproduce patterns observed on existing woven baskets but also to create novel patterns. Our notebooks are primarily intended to be used by students during classrooms activities, with the goal to illustrate how simple geometric concepts and operations can be used to design realistic patterns; our hope is that our notebooks can also be useful to artist weavers, by allowing them to visualize different pattern ideas.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cchauve/Callysto_Salish_Baskets/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
