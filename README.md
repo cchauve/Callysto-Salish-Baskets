@@ -22,5 +22,5 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 ### Usage 
 
-To access these notebooks, please visit our github repo, either by following this <a href="https://github.com/cchauve/Callysto-Salish-Baskets" target="_blank">link</a> or by clicking on “View on Github” on top of this page. They can be run without installinganything, from the [Callysto hub](https://hub.callysto.ca/), on which you can connect with an institutional, Google or Microsoft account. A detailed guide on how to access and run the notebooks is found   [here]("/documentation/CallystoSalishCallystoNotebookSetup.pdf"){:target="_blank"}.
+To access these notebooks, please visit our github repo, either by following this <a href="https://github.com/cchauve/Callysto-Salish-Baskets" target="_blank">link</a> or by clicking on “View on Github” on top of this page. They can be run without installinganything, from the [Callysto hub](https://hub.callysto.ca/), on which you can connect with an institutional, Google or Microsoft account. A detailed guide on how to access and run the notebooks is found <a href="/documentation/CallystoSalishCallystoNotebookSetup.pdf" target="_blank">here</a> .
 
