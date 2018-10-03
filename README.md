@@ -5,7 +5,8 @@
 
 ### Overview
 
-Weaving is a craft with a long history in many places around the world, including the Pacific Northwest. Woven baskets, in particular, have long been important practical and cultural objects for BC Coast Salish people. An important feature of woven baskets is the occurrence of beautiful geometric motifs/patterns, such as the ones on the basket below, exhibited at the [UBC Museum of Anthropology](https://moa.ubc.ca/). 
+Weaving is a craft with a long history in many places around the world, including the Pacific Northwest. Woven baskets, in particular, have long been important practical and cultural objects for BC Coast Salish people. An important feature of woven baskets is the occurrence of beautiful geometric motifs/patterns, such as the ones on the basket below, exhibited at the <a href="https://moa.ubc.ca/" target="_blank">Museum of Anthropology</a>.
+
 
 ![](https://moa.ubc.ca/wp-content/uploads/2018/03/Basket-by-Theresa-Gabriel-Lil%E2%80%99wat.-Photo-by-Derek-Tan.jpg "Lil’wat basket by Teresa Bagriel")
 
