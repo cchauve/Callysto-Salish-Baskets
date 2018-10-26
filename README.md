@@ -27,7 +27,7 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 ### Demo Access
 
-To access a demo of these notebooks, please visit the <a href="https://hub.mybinder.org/user/cchauve-callysto-salish-baskets-i5dkc182/tree" target="_blank">following link</a>. 
+To access a demo of these notebooks, please visit the <a href="https://mybinder.org/v2/gh/cchauve/Callysto-Salish-Baskets/master" target="_blank">following link</a>. 
 
 #### Please note this is a shared copy. To get your own copy of the notebooks please follow the instructions on the next section. 
 
