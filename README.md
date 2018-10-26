@@ -25,6 +25,10 @@ The guiding idea of our work is that the motifs we observe on many Coast Salish 
 
 Our notebooks are primarily intended to be used by students during classrooms activities, with the goal of illustrating how to use simple geometric concepts and operations to design realistic patterns. We also hope our notebooks can also be useful to artist weavers, who could use them to visualize new pattern ideas. These notebooks form only a first draft of a more general tool we expect to develop over the next few months. The main feature of our approach is to visualize basket motifs under the prism of geometric shapes and symmetries. This results in the possibility of designing complex motifs from simple ones,to which simple mathematical operators are applied. Our longer-term goal is to create more realistic motifs.
 
+### Demo Access
+
+To access a demo of these notebooks, please visit the <href="https://hub.mybinder.org/user/cchauve-callysto-salish-baskets-i5dkc182/tree" target="_blank">following link</a>. #### Please note this is a shared copy. To get your own copy of the notebooks please follow the instructions on the next section. 
+
 ### Usage 
 
 To access these notebooks, please visit our github repo, either by following this <a href="https://github.com/cchauve/Callysto-Salish-Baskets" target="_blank">link</a> or by clicking on “View on Github” on top of this page. They can be run without installinganything, from the [Callysto hub](https://hub.callysto.ca/), on which you can connect with an institutional, Google or Microsoft account. A detailed guide on how to access and run the notebooks is found <a href="https://github.com/cchauve/Callysto-Salish-Baskets/blob/master/documentation/CallystoSalishCallystoNotebookSetup.pdf" target="_blank">here</a> .
