@@ -31,6 +31,8 @@ To access a demo of these notebooks, please visit the <a href="https://mybinder.
 
 #### ENSURE YOU OPEN AND RUN THE binder_init.ipynb NOTEBOOK PRIOR TO RUNNING ALL NOTEBOOKS. 
 
+Once you launch the demo version via myBinder, you need to initialize the notebook dependencies via the binder_init.ipynb notebook, you can find it under the notebooks/ directory.
+
 Refer to this gif for visual aid. 
 
 ![Demo](./notebooks/images/InitNB.gif)
