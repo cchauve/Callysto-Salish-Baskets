@@ -29,6 +29,12 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 To access a demo of these notebooks, please visit the <a href="https://mybinder.org/v2/gh/cchauve/Callysto-Salish-Baskets/master" target="_blank">following link</a>. 
 
+#### ENSURE YOU OPEN AND RUN THE binder_init.ipynb NOTEBOOK PRIOR TO RUNNING ALL NOTEBOOKS. 
+
+Refer to this gif for visual aid. 
+
+![Demo](./images/InitNB.gif)
+
 #### Please note this is a shared copy. To get your own copy of the notebooks please follow the instructions on the next section. 
 
 ### Usage 
