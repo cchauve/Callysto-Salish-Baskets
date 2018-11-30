@@ -33,7 +33,7 @@ To access a demo of these notebooks, please visit the <a href="https://mybinder.
 
 Refer to this gif for visual aid. 
 
-![Demo](./notebooks/images/InitNB.gif
+![Demo](./notebooks/images/InitNB.gif)
 
 
 #### Please note this is a shared copy. To get your own copy of the notebooks please follow the instructions on the next section. 
