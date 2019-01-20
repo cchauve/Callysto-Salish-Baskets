@@ -2,7 +2,7 @@
 #### Authors: Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk, Cedric Chauve, Veselin Jungic
 #### Contact: [Dr. Cedric Chauve](https://cchauve.github.io) and [Dr. Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
 
-#### This is joint collaboration with Tla'amin Nation members: Ms. Betty Wilson, Ms. Gail Blaine, and Mr. Tyler Peters.
+#### This is joint collaboration with Tla'amin Nation members: Ms. Betty Wilson, Ms. Gail Blaney, and Mr. Tyler Peters.
 
 ### Acknowledgements
 
