@@ -36,7 +36,7 @@ Here are stories and news articles covering our application.
 
 <a href="https://theconversation.com/mathematics-talent-abounds-in-indigenous-communities-98250" target="_blank">The Conversation "Mathematics talent abounds in Indigenous communities", an overview of the Math Catcher Program </a>  By Dr. Veselin Jungic
 
-[Demo Video](https://www.youtube.com/watch?v=KgJJAVCxTm8)
+<a href="https://www.youtube.com/watch?v=KgJJAVCxTm8" target="_blank">Project Demo </a>
 
 ### Demo Access
 
