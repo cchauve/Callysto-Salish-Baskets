@@ -25,6 +25,18 @@ The guiding idea of our work is that the motifs we observe on many Coast Salish 
 
 Our notebooks are primarily intended to be used by students during classrooms activities, with the goal of illustrating how to use simple geometric concepts and operations to design realistic patterns. We also hope our notebooks can also be useful to artist weavers, who could use them to visualize new pattern ideas. These notebooks form only a first draft of a more general tool we expect to develop over the next few months. The main feature of our approach is to visualize basket motifs under the prism of geometric shapes and symmetries. This results in the possibility of designing complex motifs from simple ones,to which simple mathematical operators are applied. Our longer-term goal is to create more realistic motifs.
 
+### News Articles & Stories
+
+Here are stories and news articles covering our application. 
+
+<a href="https://the-peak.ca/2019/01/sfu-students-utilize-indigenous-basketry-patterns-to-teach-mathematical-concepts/" target="_blank">The Peak: "SFU students utilize Indigenous basketry patterns to teach mathematical concepts"</a> 
+
+<a href="http://www.sfu.ca/sfunews/stories/2018/12/math-students-help-preserve-and-promote-traditional-basketry.html" target="_blank">SFU News: "New app uses Indigenous basketry patterns to teach math concepts"</a> 
+
+
+<a href="https://theconversation.com/mathematics-talent-abounds-in-indigenous-communities-98250" target="_blank">The Conversation "Mathematics talent abounds in Indigenous communities", an overview of the Math Catcher Program by Dr. Veselin Jungic</a> 
+
+
 ### Demo Access
 
 To access a demo of these notebooks, please visit the <a href="https://mybinder.org/v2/gh/cchauve/Callysto-Salish-Baskets/master" target="_blank">following link</a>. 
