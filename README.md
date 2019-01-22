@@ -38,7 +38,7 @@ Here are stories and news articles covering our application.
 
 <a href="https://theconversation.com/mathematics-talent-abounds-in-indigenous-communities-98250" target="_blank">The Conversation "Mathematics talent abounds in Indigenous communities"</a>, an overview of the Math Catcher Program   By Dr. Veselin Jungic
 
-<a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">New Collaboration with the Tla'amin Nation</a>
+<a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">Department of Mathematics News "New Collaboration with the Tla'amin Nation"</a> By Dr. Veselin Jungic
 
 ### Demo Access
 
