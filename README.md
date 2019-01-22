@@ -29,14 +29,14 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 Here are stories and news articles covering our application. 
 
+<a href="https://www.youtube.com/watch?v=KgJJAVCxTm8" target="_blank">Project Demo </a>
+
 <a href="https://the-peak.ca/2019/01/sfu-students-utilize-indigenous-basketry-patterns-to-teach-mathematical-concepts/" target="_blank">The Peak: "SFU students utilize Indigenous basketry patterns to teach mathematical concepts"</a> By Henry Tran
 
 <a href="http://www.sfu.ca/sfunews/stories/2018/12/math-students-help-preserve-and-promote-traditional-basketry.html" target="_blank">SFU News: "New app uses Indigenous basketry patterns to teach math concepts"</a>  By Diane Luckow
 
 
 <a href="https://theconversation.com/mathematics-talent-abounds-in-indigenous-communities-98250" target="_blank">The Conversation "Mathematics talent abounds in Indigenous communities"</a>, an overview of the Math Catcher Program   By Dr. Veselin Jungic
-
-<a href="https://www.youtube.com/watch?v=KgJJAVCxTm8" target="_blank">Project Demo </a>
 
 <a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">New Collaboration with the Tla'amin Nation</a>
 
