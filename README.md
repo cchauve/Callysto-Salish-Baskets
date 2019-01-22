@@ -38,6 +38,8 @@ Here are stories and news articles covering our application.
 
 <a href="https://www.youtube.com/watch?v=KgJJAVCxTm8" target="_blank">Project Demo </a>
 
+<a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">New Collaboration with the Tla'amin Nation</a>
+
 ### Demo Access
 
 To access a demo of these notebooks, please visit the <a href="https://mybinder.org/v2/gh/cchauve/Callysto-Salish-Baskets/master" target="_blank">following link</a>. 
