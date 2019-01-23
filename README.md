@@ -29,7 +29,6 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 Here are stories and news articles covering our application. 
 
-<a href="https://www.youtube.com/watch?v=KgJJAVCxTm8" target="_blank">Project Demo </a>
 
 <a href="https://the-peak.ca/2019/01/sfu-students-utilize-indigenous-basketry-patterns-to-teach-mathematical-concepts/" target="_blank">The Peak: "SFU students utilize Indigenous basketry patterns to teach mathematical concepts"</a> By Henry Tran
 
