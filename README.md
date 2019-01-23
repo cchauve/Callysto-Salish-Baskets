@@ -35,8 +35,7 @@ Here are stories and news articles covering our application.
 
 <a href="http://www.sfu.ca/sfunews/stories/2018/12/math-students-help-preserve-and-promote-traditional-basketry.html" target="_blank">SFU News: "New app uses Indigenous basketry patterns to teach math concepts"</a>  By Diane Luckow
 
-
-<a href="https://theconversation.com/mathematics-talent-abounds-in-indigenous-communities-98250" target="_blank">The Conversation: "Mathematics talent abounds in Indigenous communities"</a>, an overview of the Math Catcher Program   By Dr. Veselin Jungic
+<a href="https://theconversation.com/indigenous-basket-weaving-makes-an-excellent-digital-math-lesson-110094" target="_blank">The Conversation: "Indigenous basket-weaving makes an excellent digital math lesson"</a>  By Dr. Veselin Jungic
 
 <a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">SFU Department of Mathematics News: "New Collaboration with the Tla'amin Nation"</a> By Dr. Veselin Jungic
 
