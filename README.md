@@ -29,6 +29,7 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 Here are stories and news articles covering our application. 
 
+<a href="http://thelasource.com/en/2019/02/04/basket-motifs-illustrate-mathematical-concepts/?fbclid=IwAR16TTjVB0kF2QmfGLyJ_83EWK-3bP-tM0TMdwr16ebvtVdgFqGqLY4nLDg" target="_blank">The Source "Basket motifs illustrate mathematical concepts"</a> by  Betty Shea
 
 <a href="https://the-peak.ca/2019/01/sfu-students-utilize-indigenous-basketry-patterns-to-teach-mathematical-concepts/" target="_blank">The Peak: "SFU students utilize Indigenous basketry patterns to teach mathematical concepts"</a> By Henry Tran
 
