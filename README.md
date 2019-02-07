@@ -35,6 +35,8 @@ Here are stories and news articles covering our application.
 
 <a href="http://www.sfu.ca/sfunews/stories/2018/12/math-students-help-preserve-and-promote-traditional-basketry.html" target="_blank">SFU News: "New app uses Indigenous basketry patterns to teach math concepts"</a>  By Diane Luckow
 
+<a href="https://salishseasentinel.ca/2019/02/digital-weaving-online-tool-teaches-math-using-tlaamin-basket-designs/">The Salish Sea Sentinel: "Digital weaving: Online tool teaches math using Tla’amin basket designs"</a> By Cara McKenna 
+
 <a href="https://theconversation.com/indigenous-basket-weaving-makes-an-excellent-digital-math-lesson-110094" target="_blank">The Conversation: "Indigenous basket-weaving makes an excellent digital math lesson"</a>  By Dr. Veselin Jungic
 
 <a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">SFU Department of Mathematics News: "New Collaboration with the Tla'amin Nation"</a> By Dr. Veselin Jungic
