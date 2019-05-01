@@ -45,20 +45,6 @@ Here are stories and news articles covering our application.
 
 ### Demo Access
 
-To access a demo of these notebooks, please visit the <a href="https://mybinder.org/v2/gh/cchauve/Callysto-Salish-Baskets/master" target="_blank">following link</a>. 
+To access a demo of these notebooks, please visit the <a href="http://bit.ly/callysto-salish-baskets" target="_blank">following link</a>. 
 
-#### ENSURE YOU OPEN AND RUN THE binder_init.ipynb NOTEBOOK PRIOR TO RUNNING ALL NOTEBOOKS. 
-
-Once you launch the demo version via myBinder, you need to initialize the notebook dependencies via the binder_init.ipynb notebook, you can find it under the notebooks/ directory.
-
-Refer to this gif for visual aid. 
-
-![Demo](./notebooks/images/InitNB.gif)
-
-
-#### Please note this is a shared copy. To get your own copy of the notebooks please follow the instructions on the next section. 
-
-### Usage 
-
-To access these notebooks, please visit our github repo, either by following this <a href="https://github.com/cchauve/Callysto-Salish-Baskets" target="_blank">link</a> or by clicking on “View on Github” on top of this page. They can be run without installing anything, from the [Callysto hub](https://hub.callysto.ca/), on which you can connect with an institutional, Google or Microsoft account. A detailed guide on how to access and run the notebooks is found <a href="https://github.com/cchauve/Callysto-Salish-Baskets/blob/master/documentation/CallystoSalishCallystoNotebookSetup.pdf" target="_blank">here</a> .
-
+You will need a Gmail or Outlook account to access the application.
