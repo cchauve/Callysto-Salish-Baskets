@@ -29,7 +29,7 @@ Our notebooks are primarily intended to be used by students during classrooms ac
 
 Here are stories and news articles covering our application.
 
-<a href="https://medium.com/pims-math/weaving-a-new-future-for-indigenous-education-2962937cccaa" target="_blank">Medium "Weaving A New Future For Indigenous Education"</a> by PIMS
+<a href="https://medium.com/pims-math/weaving-a-new-future-for-indigenous-education-2962937cccaa" target="_blank">Medium "Weaving A New Future For Indigenous Education"</a> by Jimmy Fryers
 
 <a href="http://thelasource.com/en/2019/02/04/basket-motifs-illustrate-mathematical-concepts/?fbclid=IwAR16TTjVB0kF2QmfGLyJ_83EWK-3bP-tM0TMdwr16ebvtVdgFqGqLY4nLDg" target="_blank">The Source "Basket motifs illustrate mathematical concepts"</a> by  Betty Shea
 
