@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+      
+      <!-- filepath is relative to notebook note this script-->
+      <link rel="stylesheet" href="html_scripts/stylesheets/test.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+      <p>
+       <div class = "size-options">
+          <label for="height">Height (5-25):</label>
+          <input type="number" id ="height" min="5" max = "25" value = "10">
+          <label for="width">Width (5-25):</label>
+          <input type="number" id="width" min="5" max="25" value = "10">
+          <button onclick="setGrid()" class="shape-btn settings-btn">Create Canvas</button>
+        </div>
+      </p>
+      <div id="paint area">
+        <div class="edit-motif">
+          <div class="palette-selector">
+            <button id="black-btn"  class="colour-options" value ="#000000"></button>
+            <button id="wheat-btn" class="colour-options" value ="#F5DEB3"></button>
+            <button id="maroon-btn" class="colour-options" value ="#800000"></button>
+            <button id="sand-btn" class="colour-options" value ="#ffe07c"></button>
+            <button id="goldenrod-btn" class="colour-options" value ="#DAA520"></button>
+            <button id="khaki-btn" class="colour-options" value ="#F0E68C"></button>
+            <button id="default-btn" class="colour-options" value ="#d5a967"></button>
+        </div>
+        <p>
+          <div id="canvas"> </div></p>
+        <div id="save-area">
+            <label class="w3-text-blue"><b>File Name</b></label>
+            <input id=file-name class="w3-input w3-border" type="text">
+            <p>
+              <button class="save-btn settings-btn">Save</button></p>
+        </div>
+      </div>
+    </div>
+
+      <!-- filepath is relative to notebook note this script-->
+      <script src="html_scripts/scripts/test.js" type="text/javascript"></script>
+    </body>
+</html>

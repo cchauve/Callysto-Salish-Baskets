@@ -39,7 +39,7 @@ def edit(st, palette):
     
     # Get dictionary containing color of each block in pattern
     global blocks
-    blocks = pattern_dict(st, palette) 
+    blocks = pattern_dict(st, palette)
     
     # Convert pattern string to array
     pattern = pattern_str_to_list(st)
@@ -54,12 +54,12 @@ def edit(st, palette):
     # Changes made to the pattern will be store in mod_pattern
     global mod_pattern
     mod_pattern = pattern
+
     
     # Function: Displays chosen palette 
     # Input: A string of palette name
     # Output: Has no return
     def plot_palette(palette):
-        plt.ion()
         
         # Create figure for Palette
         fig = plt.figure(figsize=(8, 1), frameon=False)
@@ -84,7 +84,6 @@ def edit(st, palette):
                 col_pos_dictionary[(Rectangle((x, 0), 1, 1, facecolor = color))] = (x,color)
                 ax.add_patch(Rectangle((1.5*x, 0), 1, 1, facecolor = color, edgecolor = 'white', linewidth = 10))
 
-            tx = 'x=%f, y=%f' % (event.xdata, event.ydata) 
             
             # Run through the positions of the colors in palette and locate which color the mouse is on
             # Once color is found, set new_color to the color mouse was on
