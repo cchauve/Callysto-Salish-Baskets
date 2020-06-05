@@ -41,7 +41,7 @@ function updateTextCanvas(row, col) {
 }
 
 function showPaintArea() {
-  let paintArea = document.getElementById("paint area");
+  let paintArea = document.getElementById("paint-area");
   paintArea.style.display = "block";
 }
 
@@ -67,7 +67,7 @@ function makeGrid(rows, cols) {
       }
     })
   });
-  show();
+  showPaintArea();
   return createTextCanvas(rows, cols);
 
 }
@@ -103,45 +103,51 @@ function setGrid(){
   textCanvas = makeGrid(rows,cols);
 }
 
-document.getElementById("paint area").style.display = "none";
+document.getElementById("paint-area").style.display = "none";
 
-async function displaySaveStatus(url, fileName) {
+async function isSaved(fileName){
   try{
-    const response = await fetch(url)
-    const data = await response.text();
-    console.log(data);
-    dirList = data.split(", ");
-    if(dirList.includes(fileName)) {
-      console.log("it saved");
-    } else {
-      console.log("it did not save");
+    const checkResponse = await fetch("patterns/"+ fileName);
+    const checkData = await checkResponse.text();
+    if(checkData) {
+      console.log("saved:");
+      document.getElementById("status-text").innerHTML = "filename: '" + fileName + "' saved.";
+
     }
   } catch {
-      console.error(err);
-    }
+    console.log("not saved");
+    document.getElementById("status-text").innerHTML = "filename: '" + fileName + "' already used";
+  }
 }
 
-async function save(url) {
-  try {
-    let fileName = document.getElementById("file-name").value;
-    const response = await fetch(url);
+function save(fileName){
+  let stringCanvas = canvasArrToString(textCanvas);
+  let kernel = IPython.notebook.kernel;
+  let command = "save_edited_pattern('" + fileName + "', '" + stringCanvas + "')";
+  console.log(command);
+  kernel.execute(command);
+}
+
+async function saveAndDisplay(fileName) {
+  try{
+    const response = await fetch("patterns/dirList");
     const data = await response.text();
-    console.log(data);
-    console.log(fileName);
-    dirList = data.split(', ');
-    console.log("list:", dirList);
-    if(dirList.includes(fileName)) {
-      console.log("failure")
+    const dirList = data.split(", ");
+    const nameUsed = dirList.includes(fileName);
+    if (nameUsed) {
+      console.log(fileName, "is in", dirList);
+      document.getElementById("status-text").innerHTML = "filename: '" + fileName + "' already used";
     } else {
-      let stringCanvas = canvasArrToString(textCanvas);
-      let kernel = IPython.notebook.kernel;
-      let command = "save_edited_pattern('" + fileName + "', '" + stringCanvas + "')";
-      kernel.execute(command);
-      setTimeout(function(){displaySaveStatus(url, fileName); }, 1000);
+      console.log(fileName, "is not in:", dirList);
+      save(fileName);
+      document.getElementById("status-text").innerHTML = "Saving...";
+      setTimeout(function() { isSaved(fileName); }, 3000);
     }
-   } catch {
-   console.error("catch");
-   }
+  } catch {
+    console.error("failed");
+    document.getElementById("status-text").innerHTML = "File failed to save./";
+
+  }
 }
 
 document.querySelectorAll('.colour-options').forEach(function(e) {
@@ -156,7 +162,10 @@ document.querySelectorAll('.colour-options').forEach(function(e) {
 });
 
 document.querySelectorAll('.save-btn').forEach(function(e) {
+
   e.addEventListener('click', function() {
-    save('patterns/dirList');
+    createDirList();
+    let fileName = document.getElementById("file-name").value;
+    saveAndDisplay(fileName);
   })
 });
