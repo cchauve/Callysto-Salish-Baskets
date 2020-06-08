@@ -7,8 +7,6 @@ var selectedValue = "";
 //holds the encoded pattern infromation("abcdef-") in an array of arrays
 var textCanvas = [[],[]];
 
-
-
 function setCSSGrid(rows, cols) {
   let canvas = document.getElementById("canvas");
   canvas.style.setProperty('--canvas-rows', rows);
@@ -93,17 +91,23 @@ function createDirList() {
   kernel.execute(command);
 }
 
+function removeGrid() {
+  [].forEach.call(document.querySelectorAll('.canvas-square'), function(e){
+    e.parentNode.removeChild(e);
+  });
+}
+
 /*setGrid creates all the variables needed for the canvas
  * is ran by the clicking the shape button
   * */
 function setGrid(){
   let rows = document.getElementById("height").value;
   let cols = document.getElementById("width").value;
+  removeGrid();
   createDirList();
   textCanvas = makeGrid(rows,cols);
 }
 
-document.getElementById("paint-area").style.display = "none";
 
 async function isSaved(fileName){
   try{
@@ -149,6 +153,9 @@ async function saveAndDisplay(fileName) {
 
   }
 }
+
+
+document.getElementById("paint-area").style.display = "none";
 
 document.querySelectorAll('.colour-options').forEach(function(e) {
   e.addEventListener('click', function() {
