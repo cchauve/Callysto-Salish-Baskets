@@ -52,8 +52,8 @@
   grid-gap: 1px;
   height: 540px;
   width: 100%;
-  grid-template-rows: repeat(var(--canvas-rows), minmax(20px, 60fr));
-  grid-template-columns: repeat(var(--canvas-cols),  minmax(20px, 1fr));
+  grid-template-rows: repeat(var(--canvas-rows), minmax(10px, 1fr));
+  grid-template-columns: repeat(var(--canvas-cols),  minmax(10px, 1fr));
 }
 
 .colour-options{

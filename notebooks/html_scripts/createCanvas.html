@@ -9,15 +9,23 @@
     </head>
     <body>
       <p>
-       <div class = "size-options">
-          <label for="height">Height (5-25):</label>
-          <input type="number" id ="height" min="5" max = "25" value = "10">
-          <label for="width">Width (5-25):</label>
-          <input type="number" id="width" min="5" max="25" value = "10">
-          <button onclick="setGrid()" class="shape-btn settings-btn">Create Canvas</button>
+       <div class="size-options">
+          <label for="height">Height (5-50):</label>
+          <input type="number" id ="height" min="5" max = "50" value = "10">
+          <label for="width">Width (5-50):</label>
+          <input type="number" id="width" min="5" max="50" value = "10">
+          <button onclick="setGrid()" class="shape-btn settings-btn">Create Blank Canvas</button>
         </div>
       </p>
-      <div id="paint-area">
+      <p>
+        <div class="load-options">
+          <label for="files">Select a file:</label>
+          <select name="files" id="file-list"></select>
+          <button onclick="loadCanvas()"  class="shape-btn settings-btn" id="load-file-btn">Edit Canvas</button>
+          <div id="load-status"></div>
+        </div>
+      </p>
+     <div id="paint-area">
         <div class="edit-motif">
           <div class="palette-selector">
             <button id="black-btn"  class="colour-options" value ="#000000"></button>
