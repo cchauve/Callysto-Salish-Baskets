@@ -297,16 +297,14 @@ function patternToArr(pattern) {
 // output: none
 // generates the new html grid
 function updateCanvas(patternArr){
-  console.log("in update Canvas");
   //hides the current grid
-
-  console.log(patternArr);
   document.getElementById("paint-area").style.display = "none";
+
   let cols = patternArr[0].length;
   let rows = patternArr.length;
 
   //if the dimesions are okay, delete the old grid and display a new one
-  if(cols>=4 && cols<=51 && rows>=4 && rows<=50){
+  if(cols>=4 && cols<=50 && rows>=4 && rows<=50){
     selectedID = "";
     selectedValue= "";
     removeGrid();
@@ -335,12 +333,9 @@ async function loadCanvas() {
     //update the dirList file in the pattern directory
     createDirList();
 
-    console.log(patternArr);
     //if the patternfile is legitimate(dimensions agree)
     if(patternArr) {
-      console.log("patternArr is true");
       updateCanvas(patternArr);
-      console.log("canvas updated");
     }else{
       // TODO: put error message
     }
