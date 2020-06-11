@@ -188,7 +188,7 @@ async function asyncUpdateFileList() {
   }
 }
 
-//Called by the Refresh button
+// Called by the Refresh button
 // input: none
 // output: none
 // resets the canvas then 0.5 seconds later

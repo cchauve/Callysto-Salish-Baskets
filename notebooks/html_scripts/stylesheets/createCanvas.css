@@ -13,19 +13,14 @@
   display: inline-block;
 }
 
-.settings-btn{
-  border-radius: 5px;
-  padding: 5px;
-}
-.settingis-btn:hover {
-  filter: brightness(90%);
-}
-.shape-btn {
-  color: green;
-}
-
-.save-btn {
-  color: blue;
+.jupyter-btn {
+  background-color:#00bcd4;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-size: 85%;
+  text-align: center;
+  padding: 5px 10px;
 }
 
 .colour-options {
