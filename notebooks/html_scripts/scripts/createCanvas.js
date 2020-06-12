@@ -21,8 +21,8 @@ function setCSSGrid(rows, cols) {
 function createTextCanvas(rows,cols) {
   var tempCanvas = [...Array(Number(rows)).keys()].map(e => Array(Number(cols)));
 
-  for (let i=0; i<rows; i++) {
-    for (let j=0; j<cols; j++) {
+  for (let i = 0; i<rows; i++) {
+    for (let j = 0; j<cols; j++) {
        tempCanvas[i][j] = "-";
     }
   }
@@ -61,7 +61,7 @@ function makeGrid(rows, cols) {
   setCSSGrid(rows,cols);
   let canvas = document.getElementById("canvas");
 
-  for (let i = 0; i < rows*cols; i++) {
+  for (let i = 0; i<rows*cols; i++) {
     let btn = document.createElement("button");
     btn.id = Math.floor(i/cols) + ',' +  i % cols;
 
@@ -90,8 +90,8 @@ function canvasArrToString(arr) {
   let dims = [arr[0].length, arr.length];
   let stringCanvas = "";
 
-  for(let i=0; i<dims[1]; i++) {
-    for(let j=0; j<dims[0]; j++) {
+  for(let i = 0; i<dims[1]; i++) {
+    for(let j = 0; j<dims[0]; j++) {
       stringCanvas = stringCanvas + arr[i][j];
     }
     stringCanvas = stringCanvas + "\\n";
@@ -124,14 +124,14 @@ function removeGrid() {
 // output: none
 // grabs the values selected for height and width and creates the grid of buttons
 function setGrid(){
-  let rows = document.getElementById("height").value;
-  let cols = document.getElementById("width").value;
+  let rows = Math.floor(document.getElementById("height").value);
+  let cols = Math.floor(document.getElementById("width").value);
 
   //clips input if out of range
-  if (rows < 4) {rows = 4;}
-  else if(rows >50) {rows = 50;}
-  if (cols < 4) {cols = 4;}
-  else if (cols > 50) {cols = 50;}
+  if (rows<4) {rows=4;}
+  else if(rows>50) {rows=50;}
+  if (cols<4) {cols=4;}
+  else if (cols>50) {cols=50;}
 
   //clears existing settings
   selectedID = "";
@@ -172,7 +172,7 @@ async function getFileDir() {
 // input: none
 // output: none
 // get the current dirList file and update the dropdown menu with availble patterns
-async function asyncUpdateFileList() {
+async function asyncUpdateFileList(fromRefresh) {
   try{
     let dirList  = await getFileDir();
     if(dirList) {
@@ -183,6 +183,9 @@ async function asyncUpdateFileList() {
         fileSelect.add(newOption, undefined);
       }
     }
+  if(fromRefresh){
+    document.getElementById("paint-area").style.display = "none";
+  }
   }catch{
     console.error("failed to grab list");
   }
@@ -194,7 +197,7 @@ async function asyncUpdateFileList() {
 // resets the canvas then 0.5 seconds later
 function updateFileList(){
   loadCanvas();
-  setTimeout(function(){ asyncUpdateFileList(); }, 500);
+  setTimeout(function(){ asyncUpdateFileList("true"); }, 500);
 }
 
 // Called by saveAndDisplay 3 seconds after saving
@@ -245,7 +248,7 @@ async function saveAndDisplay(fileName) {
   }
 }
 
-// Called up updateCanvas
+// Called by up updateCanvas
 // input: an 2d Array storing the 'abcdef-' code
 // output: none
 // updates button colours to reflect the pattern
@@ -312,7 +315,7 @@ function updateCanvas(patternArr){
     setColours(patternArr);
     textCanvas = patternArr;
   } else {
-    //TODO: print error
+    document.getElementByID("load-status") = "canvas dimensions outside of range";
   }
 }
 
@@ -337,7 +340,7 @@ async function loadCanvas() {
     if(patternArr) {
       updateCanvas(patternArr);
     }else{
-      // TODO: put error message
+      document.getElementByID("load-status") = "canvas dimensions outside of range";
     }
   } catch {
     console.error("did not load");
@@ -368,4 +371,4 @@ document.querySelectorAll('.save-btn').forEach(function(e) {
   })
 });
 
-asyncUpdateFileList();
+asyncUpdateFileList("false");
