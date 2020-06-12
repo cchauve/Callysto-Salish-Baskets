@@ -138,8 +138,10 @@ def plot_motif_2D(pattern_st, palette):
 # Output: Plot of the 4 faces of basket and bottom
 def plot_rect_basket(front, back, left, right, palette):
     # Create figure
-    fig = plt.figure(figsize = (7,7))
-    ax = fig.add_subplot(111, projection='3d', facecolor = '#ffffff')
+    fig = plt.figure(figsize = (14, 7))
+    ax = fig.add_subplot(131, projection='3d', facecolor = '#ffffff')
+    ax2 = fig.add_subplot(132, projection='3d', facecolor = '#ffffff')
+    ax3 = fig.add_subplot(133, projection='3d', facecolor = '#ffffff')
     
     # Get color palette
     col_dict = get_colors(palette)
@@ -195,11 +197,20 @@ def plot_rect_basket(front, back, left, right, palette):
             # Create block, color accordingly and add to plot
             rect_coords = [bottom_left, top_left, top_right, bottom_right]
             rect = a3.art3d.Poly3DCollection([rect_coords]) 
+            rect2 = a3.art3d.Poly3DCollection([rect_coords]) 
+            rect3 = a3.art3d.Poly3DCollection([rect_coords]) 
          
             color = col_dict[f[i][j]]
             rect.set_color(color)
             rect.set_edgecolor('#ad8a54')
+            rect2.set_color(color)
+            rect2.set_edgecolor('#ad8a54')
+            rect3.set_color(color)
+            rect3.set_edgecolor('#ad8a54')
+
             ax.add_collection3d(rect)
+            ax2.add_collection3d(rect2)
+            ax3.add_collection3d(rect3)
             
 
             # BACK FACE
@@ -212,13 +223,22 @@ def plot_rect_basket(front, back, left, right, palette):
             
             # Create block, color accordingly and add to plot
             rect_coords = [bottom_left, top_left, top_right, bottom_right]
-            rect = a3.art3d.Poly3DCollection([rect_coords]) 
+            rect = a3.art3d.Poly3DCollection([rect_coords])
+            rect2= a3.art3d.Poly3DCollection([rect_coords])
+            rect3= a3.art3d.Poly3DCollection([rect_coords])
                    
             color = col_dict[b[i][j]]
             rect.set_color(color)
             rect.set_edgecolor('#ad8a54')
-            ax.add_collection3d(rect)
             
+            rect2.set_color(color)
+            rect2.set_edgecolor('#ad8a54')
+            
+            rect3.set_color(color)
+            rect3.set_edgecolor('#ad8a54')
+            ax.add_collection3d(rect)
+            ax2.add_collection3d(rect2)
+            ax3.add_collection3d(rect3)
             if i == rows - 2:
    
                 # FRONT FACE
@@ -231,8 +251,19 @@ def plot_rect_basket(front, back, left, right, palette):
                 rect = a3.art3d.Poly3DCollection([rect_coords]) 
                 rect.set_color('#af8a52')
                 rect.set_edgecolor('#87693c')
-                ax.add_collection3d(rect)
                 
+                rect2 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect2.set_color('#af8a52')
+                rect2.set_edgecolor('#87693c')
+                
+                rect3 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect3.set_color('#af8a52')
+                rect3.set_edgecolor('#87693c')
+                
+
+                ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
                 # BACK FACE
                 bottom_left = [x[i+1][j], width - indent + (i+1), z[i+1]]
                 bottom_right = [x[i+1][j+1], width - indent + (i+1), z[i+1]]
@@ -243,8 +274,18 @@ def plot_rect_basket(front, back, left, right, palette):
                 rect = a3.art3d.Poly3DCollection([rect_coords]) 
                 rect.set_color('#af8a52')
                 rect.set_edgecolor('#87693c')
-                ax.add_collection3d(rect)
                 
+                rect2 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect2.set_color('#af8a52')
+                rect2.set_edgecolor('#87693c')
+                
+                rect3 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect3.set_color('#af8a52')
+                rect3.set_edgecolor('#87693c')
+                
+                ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
         # Plot left and right faces of rectangular prism    
         for j in range(0, width):
         
@@ -259,14 +300,23 @@ def plot_rect_basket(front, back, left, right, palette):
             # Create weave, color accordingly and add to plot
             rect_coords = [bottom_left, top_left, top_right, bottom_right]
             rect = a3.art3d.Poly3DCollection([rect_coords])  
+            rect2 = a3.art3d.Poly3DCollection([rect_coords])  
+            rect3 = a3.art3d.Poly3DCollection([rect_coords])  
           
             color = col_dict[l[i][j]]
             rect.set_color(color)
+            rect2.set_color(color)
+            rect3.set_color(color)
 
             rect.set_edgecolor('#ad8a54')
+            rect2.set_edgecolor('#ad8a54')
+            rect3.set_edgecolor('#ad8a54'
+                               )
             ax.add_collection3d(rect)
-
-            # RIGHT FACE
+            ax2.add_collection3d(rect2)
+            ax3.add_collection3d(rect3)
+           
+           # RIGHT FACE
             
             # Define coordinates for 4 corners of weave
             bottom_left = [length - indent + i, y[i][j], z[i]]
@@ -276,15 +326,24 @@ def plot_rect_basket(front, back, left, right, palette):
             
             # Create weave, color accordingly and add to plot
             rect_coords = [bottom_left, top_left, top_right, bottom_right]
-            rect = a3.art3d.Poly3DCollection([rect_coords])  
+            rect = a3.art3d.Poly3DCollection([rect_coords])
+            rect2 = a3.art3d.Poly3DCollection([rect_coords])
+            rect3 = a3.art3d.Poly3DCollection([rect_coords])
 
             color = col_dict[r[i][j]]
             rect.set_color(color)
+            rect2.set_color(color)
+            rect3.set_color(color)
 
             rect.set_edgecolor('#ad8a54')
-            ax.add_collection3d(rect) 
+            rect2.set_edgecolor('#ad8a54')
+            rect3.set_edgecolor('#ad8a54')
 
-            # BASKET RIM
+            ax.add_collection3d(rect)
+            ax2.add_collection3d(rect2)
+            ax3.add_collection3d(rect3)
+           
+           # BASKET RIM
             if i == rows - 2:
 
                 # LEFT FACE
@@ -297,9 +356,19 @@ def plot_rect_basket(front, back, left, right, palette):
                 rect = a3.art3d.Poly3DCollection([rect_coords]) 
                 rect.set_color('#af8a52')
                 rect.set_edgecolor('#87693c')
-                ax.add_collection3d(rect)
                 
-                # RIGHT FACE
+                rect2 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect2.set_color('#af8a52')
+                rect2.set_edgecolor('#87693c')
+                
+                rect3 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect3.set_color('#af8a52')
+                rect3.set_edgecolor('#87693c')
+                ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
+               
+               # RIGHT FACE
                 bottom_left = [length - indent + (i+1), y[i+1][j], z[i+1]]
                 bottom_right = [length - indent + (i+1), y[i+1][j+1], z[i+1]]
                 top_left = [length - indent + (i+1), y[i+1][j], z[i+1] + basket_rim]
@@ -309,7 +378,17 @@ def plot_rect_basket(front, back, left, right, palette):
                 rect = a3.art3d.Poly3DCollection([rect_coords]) 
                 rect.set_color('#af8a52')
                 rect.set_edgecolor('#87693c')
+                
+                rect2 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect2.set_color('#af8a52')
+                rect2.set_edgecolor('#87693c')
+                
+                rect3 = a3.art3d.Poly3DCollection([rect_coords]) 
+                rect3.set_color('#af8a52')
+                rect3.set_edgecolor('#87693c')
                 ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
 
     # Plot bottom
     bottom_left = [x[0][0], y[0][0], 0]
@@ -322,7 +401,9 @@ def plot_rect_basket(front, back, left, right, palette):
     rect.set_color('#af8a52')
     rect.set_edgecolor('#87693c')
     ax.add_collection3d(rect)
-    
+    ax2.add_collection3d(rect2)
+    ax3.add_collection3d(rect3)
+
     # Settings of plot
     ax.set_xlabel('x')
     ax.set_ylabel('y')
@@ -331,9 +412,30 @@ def plot_rect_basket(front, back, left, right, palette):
     ax.set_ylim(-.25, 1.1*(width - indent + rows))
     ax.set_zlim(-.25, height)
     ax.axis('off')
+
+    ax2.set_xlabel('x')
+    ax2.set_ylabel('y')
+    ax2.set_zlabel('z')
+    ax2.set_xlim(-.25, 1.1*(length - indent + rows))
+    ax2.set_ylim(-.25, 1.1*(width - indent + rows))
+    ax2.set_zlim(-.25, height)
+    ax2.axis('off')
+
+    ax3.set_xlabel('x')
+    ax3.set_ylabel('y')
+    ax3.set_zlabel('z')
+    ax3.set_xlim(-.25, 1.1*(length - indent + rows))
+    ax3.set_ylim(-.25, 1.1*(width - indent + rows))
+    ax3.set_zlim(-.25, height)
+    ax3.axis('off')
+
+    #Rotate the plots
+    camera_angle = ax.azim
+    ax2.view_init(azim = camera_angle + 120)
+    ax3.view_init(azim = camera_angle + 240)
+
     plt.show()
-    
-    
+
 def plot_circ_basket(pattern_st, palette):
     # Create figure
     fig = plt.figure(figsize = (7,7))
