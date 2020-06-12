@@ -138,7 +138,7 @@ def plot_motif_2D(pattern_st, palette):
 # Output: Plot of the 4 faces of basket and bottom
 def plot_rect_basket(front, back, left, right, palette):
     # Create figure
-    fig = plt.figure(figsize = (14, 7))
+    fig = plt.figure(figsize = (14, 5))
     ax = fig.add_subplot(131, projection='3d', facecolor = '#ffffff')
     ax2 = fig.add_subplot(132, projection='3d', facecolor = '#ffffff')
     ax3 = fig.add_subplot(133, projection='3d', facecolor = '#ffffff')
@@ -438,8 +438,10 @@ def plot_rect_basket(front, back, left, right, palette):
 
 def plot_circ_basket(pattern_st, palette):
     # Create figure
-    fig = plt.figure(figsize = (7,7))
-    ax = fig.add_subplot(111, projection='3d', facecolor = '#ffffff')
+    fig = plt.figure(figsize = (14,5))
+    ax = fig.add_subplot(131, projection='3d', facecolor = '#ffffff')
+    ax2 = fig.add_subplot(132, projection='3d', facecolor = '#ffffff')
+    ax3 = fig.add_subplot(133, projection='3d', facecolor = '#ffffff')
     
     # Get colors and convert string to array
     col_dict = get_colors(palette)
@@ -475,10 +477,21 @@ def plot_circ_basket(pattern_st, palette):
                 
                 rect_coords = [bottom_left, top_left, top_right, bottom_right]
                 rect = a3.art3d.Poly3DCollection([rect_coords])  
+                rect2 = a3.art3d.Poly3DCollection([rect_coords])  
+                rect3 = a3.art3d.Poly3DCollection([rect_coords])  
                 
                 rect.set_color('#af8a52')
                 rect.set_edgecolor('#87693c')
+                
+                rect2.set_color('#af8a52')
+                rect2.set_edgecolor('#87693c')
+                
+                rect3.set_color('#af8a52')
+                rect3.set_edgecolor('#87693c')
+                
                 ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
              
             # PATTERN
             else:
@@ -492,11 +505,22 @@ def plot_circ_basket(pattern_st, palette):
                 # Create weave, color accordingly and add to plot
                 rect_coords = [bottom_left, top_left, top_right, bottom_right]
                 rect = a3.art3d.Poly3DCollection([rect_coords])
+                rect2 = a3.art3d.Poly3DCollection([rect_coords])
+                rect3 = a3.art3d.Poly3DCollection([rect_coords])
                 
                 color = col_dict[col_list[i][j]]
                 rect.set_color(color)
                 rect.set_edgecolor('#6d5634')
+                
+                rect2.set_color(color)
+                rect2.set_edgecolor('#6d5634')
+                
+                rect3.set_color(color)
+                rect3.set_edgecolor('#6d5634')
+                
                 ax.add_collection3d(rect)
+                ax2.add_collection3d(rect2)
+                ax3.add_collection3d(rect3)
 
 
     # Plot bottom
@@ -504,7 +528,18 @@ def plot_circ_basket(pattern_st, palette):
     bottom = a3.art3d.Poly3DCollection(bottom_verts)  
     bottom.set_color('#af8a52')
     bottom.set_edgecolor('#87693c')
+    
+    bottom2 = a3.art3d.Poly3DCollection(bottom_verts)  
+    bottom2.set_color('#af8a52')
+    bottom2.set_edgecolor('#87693c')
+    
+    bottom3 = a3.art3d.Poly3DCollection(bottom_verts)  
+    bottom3.set_color('#af8a52')
+    bottom3.set_edgecolor('#87693c')
+    
     ax.add_collection3d(bottom)
+    ax2.add_collection3d(bottom2)
+    ax3.add_collection3d(bottom3)
     
     # Plot settings
     ax.set_xlim(-max_radius, max_radius)
@@ -514,4 +549,26 @@ def plot_circ_basket(pattern_st, palette):
     ax.set_ylabel('y')
     ax.set_zlabel('z')
     ax.axis('off')
+    
+    ax2.set_xlim(-max_radius, max_radius)
+    ax2.set_ylim(-max_radius, max_radius)
+    ax2.set_zlim(0, max_radius-1)
+    ax2.set_xlabel('x')
+    ax2.set_ylabel('y')
+    ax2.set_zlabel('z')
+    ax2.axis('off')
+    
+    ax3.set_xlim(-max_radius, max_radius)
+    ax3.set_ylim(-max_radius, max_radius)
+    ax3.set_zlim(0, max_radius-1)
+    ax3.set_xlabel('x')
+    ax3.set_ylabel('y')
+    ax3.set_zlabel('z')
+    ax3.axis('off')
+
+    #Rotate the plots
+    camera_angle = ax.azim
+    ax2.view_init(azim = camera_angle + 120)
+    ax3.view_init(azim = camera_angle + 240)
+
     plt.show()
