@@ -497,9 +497,11 @@ def plot_rect_basket(front, back, left, right, palette):
 
     #Rotate the plots
     camera_angle = ax.azim
-    ax2.view_init(azim = camera_angle + 90)
-    ax3.view_init(azim = camera_angle + 180)
-    ax4.view_init(azim = camera_angle + 270)
+    elev_angle = ax.elev
+    ax.view_init(elev = elev_angle - 20)
+    ax2.view_init(elev = elev_angle - 20, azim = camera_angle + 90)
+    ax3.view_init(elev = elev_angle - 20, azim = camera_angle + 180)
+    ax4.view_init(elev = elev_angle - 20, azim = camera_angle + 270)
 
     plt.show()
 
@@ -658,8 +660,10 @@ def plot_circ_basket(pattern_st, palette):
 
     #Rotate the plots
     camera_angle = ax.azim
-    ax2.view_init(azim = camera_angle + 90)
-    ax3.view_init(azim = camera_angle + 180)
-    ax4.view_init(azim = camera_angle + 270)
+    elev_angle = ax.elev
+    ax.view_init(elev = elev_angle - 20)
+    ax2.view_init(elev = elev_angle - 20, azim = camera_angle + 90)
+    ax3.view_init(elev = elev_angle - 20, azim = camera_angle + 180)
+    ax4.view_init(elev = elev_angle - 20, azim = camera_angle + 270)
 
     plt.show()
