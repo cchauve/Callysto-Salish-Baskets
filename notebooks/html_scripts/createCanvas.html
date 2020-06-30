@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+      
+      <!-- filepath is relative to notebook note this script-->
+      <link rel="stylesheet" href="html_scripts/stylesheets/createCanvas.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+      <p>
+       <div class="size-options">
+          <label for="height">Height (4-50):</label>
+          <input type="number" id ="height" min="4" max="50" value="10">
+          <label for="width">Width (4-50):</label>
+          <input type="number" id="width" min="4" max="50" value="10">
+          <button onclick="setGrid()" class="jupyter-btn">Create Blank Canvas</button>
+        </div>
+      </p>
+      <p>
+        <div class="load-options">
+          <label for="files">Select a file:</label>
+          <select name="files" id="file-list"></select>
+          <button onclick="loadCanvas()"  class="jupyter-btn" id="load-file-btn">Edit Canvas</button>
+          <button onclick="updateFileList()" class=" jupyter-btn" id="refresh-files">Refresh</button>
+          <div id="load-status"></div>
+        </div>
+      </p>
+     <div id="paint-area">
+        <div class="edit-motif">
+          <div class="palette-selector">
+            <button id="black-btn"  class="colour-options" value="#000000"></button>
+            <button id="wheat-btn" class="colour-options" value="#F5DEB3"></button>
+            <button id="maroon-btn" class="colour-options" value="#800000"></button>
+            <button id="sand-btn" class="colour-options" value="#ffe07c"></button>
+            <button id="goldenrod-btn" class="colour-options" value="#DAA520"></button>
+            <button id="khaki-btn" class="colour-options" value="#F0E68C"></button>
+            <button id="default-btn" class="colour-options" value="#d5a967"></button>
+        </div>
+        <p>
+          <div id="canvas"> </div></p>
+        <div id="save-area">
+            <label class="w3-text-blue"><b>File Name</b></label>
+            <input id=file-name class="w3-input w3-border" type="text" value="myMotif">
+            <p>
+              <div id="save-status">
+                <button class="jupyter-btn save-btn">Save</button>
+                <div id="status-text"></div>
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- filepath is relative to notebook note this script-->
+      <script src="html_scripts/scripts/createCanvas.js" type="text/javascript"></script>
+    </body>
+</html>

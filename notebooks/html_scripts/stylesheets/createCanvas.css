@@ -1,0 +1,99 @@
+:root {
+  --canvas-cols: 1;
+  --canvas-ros: 1;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.size-options {
+  display: inline-block;
+}
+
+.jupyter-btn {
+  background-color:#00bcd4;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-size: 85%;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.colour-options {
+  border-radius: 10px;
+}
+
+.edit-motif {
+  border: 1px solid #ccc;
+  border-radius 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.palette-selector {
+  width: 100%;
+  height: 50px%;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-column-gap: 5px;
+}
+
+#canvas {
+  display: grid;
+  grid-gap: 1px;
+  height: 540px;
+  width: 100%;
+  grid-template-rows: repeat(var(--canvas-rows), minmax(10px, 1fr));
+  grid-template-columns: repeat(var(--canvas-cols),  minmax(10px, 1fr));
+}
+
+.colour-options{
+  height: 30px;
+}
+
+#black-btn {
+  background-color: #000000;
+}
+
+#wheat-btn {
+  background-color: #F5DEB3;
+}
+
+#maroon-btn {
+  background-color: #800000;
+}
+
+#sand-btn {
+  background-color: #ffe07c;
+}
+
+#goldenrod-btn {
+  background-color: #DAA520;
+}
+
+#khaki-btn {
+  background-color: #F0E68C;
+}
+
+#default-btn {
+  background-color: #d5a967;
+}
+
+.canvas-square {
+  background-color: #d5a967;
+  border-radius: 3px;
+  border-color: #f8f8ff;
+  border-style: solid;
+  border-width: thin;
+}
+
+.canvas-square:hover {
+  filter: brightness(80%);
+}
+
+#save-area {
+  height: 140px;
