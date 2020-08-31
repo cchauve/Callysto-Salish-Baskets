@@ -99,8 +99,9 @@ if __name__ == "__main__":
         elif main.size() >= 2:
             display(Box(children = [undo_button], layout=box_layout))
 
-        display(reflection_options)
         display(VBox([save_as_button, restart_button]))
+        display(reflection_options)
+        
 
     # Check if operation has been applied
     # If so, add the current pattern onto main stack
@@ -113,7 +114,8 @@ if __name__ == "__main__":
         if backup.isEmpty():
             display(Box(children = [undo_button], layout=box_layout))
 
-        display(reflection_options)
         display(VBox([save_as_button, restart_button]))
+        display(reflection_options)
+        
 
 
