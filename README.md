@@ -8,6 +8,20 @@
 
 We thank the Tla'amin Nation and members  Ms. Betty Wilson, Ms. Gail Blaine, and Mr. Tyler Peters for sharing their knowledge and wisdom on the craft of traditional basket weaving. Without their openness this project would have not taken place. We also acknowledge that this work was conducted in  unceded territory of the Musqueam , Skxwú7mesh, Tsleil-Waututh, Kwikwetlem nations. We thank PIMS and Cybera, as well as the Government of Canada for providing financial support and infrastructure. 
 
+### Demo Access
+
+To access a demo of these notebooks, please visit the following buttons  <img src="https://raw.githubusercontent.com/callysto/curriculum-notebooks/master/open-in-callysto-button.svg?sanitize=true" width="123" height="24" alt="Open in Callysto"/> to launch the notebooks the Callysto Hub.
+
+<a href="http://tinyurl.com/r3vkdjd" target="_blank"><img src="https://raw.githubusercontent.com/callysto/curriculum-notebooks/master/open-in-callysto-button.svg?sanitize=true" width="123" height="24" alt="Open in Callysto"/></a> Atomic motif's: exploring a pattern's smallest unit and geometrical operations
+
+<a href="http://tinyurl.com/y324w8eh" target="_blank"><img src="https://raw.githubusercontent.com/callysto/curriculum-notebooks/master/open-in-callysto-button.svg?sanitize=true" width="123" height="24" alt="Open in Callysto"/></a> Creating and combining patterns
+
+<a href="http://tinyurl.com/ta9ufq7" target="_blank"><img src="https://raw.githubusercontent.com/callysto/curriculum-notebooks/master/open-in-callysto-button.svg?sanitize=true" width="123" height="24" alt="Open in Callysto"/></a> 3D visualization of baskets using patterns
+
+
+
+You will need a Gmail or Outlook account to access the application.
+
 ### Overview
 
 Weaving is a craft with a long history in many places around the world, including the Pacific Northwest. Woven baskets, in particular, have long been important practical and cultural objects for BC Coast Salish people. An important feature of woven baskets is the occurrence of beautiful geometric motifs/patterns, such as the ones on the basket below, exhibited at the <a href="https://moa.ubc.ca/" target="_blank">Museum of Anthropology</a>.
@@ -45,8 +59,4 @@ Here are stories and news articles covering our application.
 
 <a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">SFU Department of Mathematics News: "New Collaboration with the Tla'amin Nation"</a> By Dr. Veselin Jungic
 
-### Demo Access
 
-To access a demo of these notebooks, please visit the <a href="http://bit.ly/callysto-salish-baskets" target="_blank">following link</a>. 
-
-You will need a Gmail or Outlook account to access the application.
