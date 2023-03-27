@@ -1,7 +1,5 @@
 # Interactive notebooks for creating Coast Salish basket motifs
 
-#### Contact: [Dr. Cedric Chauve](https://cchauve.github.io) and [Dr. Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
-
 This website is the result of a collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a> and the  <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The project benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation). This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
 
 ```{image} ./documentation/Mobius%204B%20Final.png
@@ -61,4 +59,4 @@ Here are stories and news articles covering our application.
 
 <a href="https://www.sfu.ca/math/news---events/news-list/2018-news-stories/New-Collaboration-with-the-Tlaamin-Nation.html" target="_blank">SFU Department of Mathematics News: "New Collaboration with the Tla'amin Nation"</a> By Dr. Veselin Jungic
 
-
+#### Contact: [Dr. Cedric Chauve](https://cchauve.github.io) and [Dr. Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
