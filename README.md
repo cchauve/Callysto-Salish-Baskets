@@ -6,7 +6,6 @@ This website is the result of a collaboration between the <a href="http:/math.sf
 
 ```{image} ./documentation/Mobius%204B%20Final.png
 :alt: mobius
-:class: bg-primary mb-1
 :width: 200px
 :align: center
 ```
