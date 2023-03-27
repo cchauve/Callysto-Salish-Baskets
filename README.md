@@ -2,13 +2,18 @@
 
 #### Contact: [Dr. Cedric Chauve](https://cchauve.github.io) and [Dr. Veselin Jungic](http://people.math.sfu.ca/~vjungic/)
 
-This website is the result of a collaboration between the SFU department of Mathematics and the Tla'amin nation. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The rpoject benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation).
+This website is the result of a collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a> and the  <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The project benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation). This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
 
-<img src=https://github.com/cchauve/Callysto-Salish-Baskets/blob/master/documentation/Mobius%204B%20Final.png width=300 style="margin-left:auto; margin-right:auto"/>
+```{image} ./documentation/Mobius%204B%20Final.png
+:alt: mobius
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
   
 ### Land acknowledgements
 
-This work was conducted in  unceded territory of the Musqueam , Skxwú7mesh, Tsleil-Waututh, Kwikwetlem nations. We thank PIMS and Cybera, as well as the Government of Canada for providing financial support and infrastructure. 
+This work was conducted in unceded territory of the Musqueam , Skxwú7mesh, Tsleil-Waututh, Kwikwetlem nations.
 
 ### Demo Access
 
@@ -28,8 +33,6 @@ Weaving is a craft with a long history in many places around the world, includin
 
 
 ![](https://moa.ubc.ca/wp-content/uploads/2018/03/Basket-by-Theresa-Gabriel-Lil%E2%80%99wat.-Photo-by-Derek-Tan.jpg "Lil’wat basket by Teresa Bagriel")
-
-The project we describe here originates from a starting collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a> and baskets weavers from the <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. Together, we developed a series of interactive, online <a href="http://jupyter.org/" target="_blank">Jupyter notebooks</a> (a simple, powerful computer application) that can generate motifs similar to those observed on existing woven baskets, and can also create novel motifs. This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
 
 The guiding idea of our work is that the motifs we observe on many Coast Salish baskets are highly regular and can be described very simply in terms of basic geometric shapes (broken lines, triangles, rectangles, …) and mathematical operations such as reflections and stacking. Following this observation, we designed two Jupyter notebooks inspired by baskets the Tla’amin Nation presented to us during a visit. .
 
