@@ -4,7 +4,7 @@
 
 This website is the result of a collaboration between the SFU department of Mathematics and the Tla'amin nation. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The rpoject benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation).
 
-<img src=https://github.com/cchauve/Callysto-Salish-Baskets/blob/master/documentation/Mobius%204B%20Final.png width=200>
+<img src=https://github.com/cchauve/Callysto-Salish-Baskets/blob/master/documentation/Mobius%204B%20Final.png width=300>
 
 ### Land acknowledgements
 
