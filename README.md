@@ -4,6 +4,8 @@
 
 This website is the result of a collaboration between the SFU department of Mathematics and the Tla'amin nation. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The rpoject benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation).
 
+![documentation/Mobius 4B Final.png]("Wowvn Mobius strip")
+
 ### Land acknowledgements
 
 This work was conducted in  unceded territory of the Musqueam , Skxwú7mesh, Tsleil-Waututh, Kwikwetlem nations. We thank PIMS and Cybera, as well as the Government of Canada for providing financial support and infrastructure. 
@@ -18,8 +20,6 @@ To access a demo of these notebooks, please visit the following buttons  <img sr
 
 <a href="http://tinyurl.com/ta9ufq7" target="_blank"><img src="https://raw.githubusercontent.com/callysto/curriculum-notebooks/master/open-in-callysto-button.svg?sanitize=true" width="123" height="24" alt="Open in Callysto"/></a> 3D visualization of baskets using patterns
 
-
-
 You will need a Gmail or Outlook account to access the application.
 
 ### Overview
@@ -29,7 +29,7 @@ Weaving is a craft with a long history in many places around the world, includin
 
 ![](https://moa.ubc.ca/wp-content/uploads/2018/03/Basket-by-Theresa-Gabriel-Lil%E2%80%99wat.-Photo-by-Derek-Tan.jpg "Lil’wat basket by Teresa Bagriel")
 
-The project we describe here originates from a starting collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a>  and baskets weavers from the <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. We developed a series of interactive, online <a href="http://jupyter.org/" target="_blank">Jupyter notebooks</a> (a simple, powerful computer application) that can generate motifs similar to those observed on existing woven baskets, and can also create novel motifs. This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
+The project we describe here originates from a starting collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a> and baskets weavers from the <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. Together, we developed a series of interactive, online <a href="http://jupyter.org/" target="_blank">Jupyter notebooks</a> (a simple, powerful computer application) that can generate motifs similar to those observed on existing woven baskets, and can also create novel motifs. This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
 
 The guiding idea of our work is that the motifs we observe on many Coast Salish baskets are highly regular and can be described very simply in terms of basic geometric shapes (broken lines, triangles, rectangles, …) and mathematical operations such as reflections and stacking. Following this observation, we designed two Jupyter notebooks inspired by baskets the Tla’amin Nation presented to us during a visit. .
 
