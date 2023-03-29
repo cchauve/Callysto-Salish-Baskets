@@ -3,7 +3,9 @@
 This website is the result of a collaboration between the <a href="http:/math.sfu.ca" target="_blank">Department of Mathematics</a>  at <a href="http://www.sfu.ca" target="_blank">Simon Fraser University</a> and the  <a href="http://www.tlaaminnation.com" target="_blank">Tla'amin Nation</a>. The collaboration was initiated by Veselin Jungic (SFU Department of Mathematics), Cedric Chauve (SFU Department of Mathematics) and Betty Wilson (Tla'amin Nation). The project benefited from contributions of several people, including Howell Tan, Jenifer Pham, Laura Gutierrez Funderburk (SFU Department of Mathematics) and Ms. Gail Blaine, and Mr. Tyler (Tla'amin nation). This project was funded by the Pacific Institute for <a href="https://www.pims.math.ca/" target="_blank">Pacific Institute for Mathematical Sciences</a> and is part of the <a href="https://callysto.ca/" target="_blank">Callysto</a> project, which aims to bring technology into Canadian classrooms.
 
 <img src="./documentation/Mobius.png" width="300px" style="margin:auto"/>
-  
+
+<a href="https://vimeo.com/808497882">We will be together in our teaching</a>.
+
 ### Land acknowledgements
 
 This work was conducted in unceded territory of the Musqueam , Skxwú7mesh, Tsleil-Waututh, Kwikwetlem nations.
