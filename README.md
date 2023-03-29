@@ -4,7 +4,7 @@ This website is the result of a collaboration between the <a href="http:/math.sf
 
 <img src="./documentation/Mobius.png" width="300px" style="margin:auto"/>
 
-<a href="https://vimeo.com/808497882">We will be together in our teaching</a>.
+<a href="https://vimeo.com/808497882">We will be together in our teachings.</a>
 
 ### Land acknowledgements
 
