@@ -62,6 +62,8 @@ if __name__ == "__main__":
 
     # List Pattern Text Files
     pattern_files = os.listdir("./patterns/")
+    if 'dirList' in pattern_files:
+        pattern_files.remove('dirList')
 
     if '.ipynb_checkpoints' in pattern_files:
         pattern_files.remove('.ipynb_checkpoints')
